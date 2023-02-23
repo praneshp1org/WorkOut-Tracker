@@ -11,8 +11,13 @@ class WorkoutData extends ChangeNotifier
 
   */
   List<Workout> workoutList=[Workout(name: "Upper Body", exercises: [
-    Exercise(name: "Bicep Curl", weight: "10", reps: "10", sets: "3", )
-  ])];
+    Exercise(name: "Bicep Curl", weight: "10", reps: "10", sets: "3", ),
+  ]), Workout(name: "Lower Body", exercises: [
+    Exercise(name: "Bicep Curl", weight: "10", reps: "10", sets: "3", ),
+    
+  ]),];
+
+  
 
   //getting list of workout
   List<Workout> getWorkoutList(){
